@@ -1,0 +1,8 @@
+WHAT DOES IT DO?
+This script will show you all the shared connections (shared friends) between two Twitter accounts
+
+IMPORTANT
+> Be sure to change the hardcoded 'source_TwitterAccount' as this is currently set by default to 'ebloch' and will in turn show you mutual friends between whatever account you enter and 'ebloch'
+
+TBC
+> Better error handling as there is none =)

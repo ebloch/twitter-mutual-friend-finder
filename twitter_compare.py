@@ -1,4 +1,4 @@
-# This script will show you the shared connections amongst two Twitter users
+# This script will show you all the shared connections (shared friends) between two Twitter accounts
 
 import urllib
 import simplejson as json
