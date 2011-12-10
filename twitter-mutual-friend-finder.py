@@ -17,7 +17,8 @@ def findfriends(TwitterAccount):
   elif 'error' in followers_results:
     return None
   else:
-    friends = set(following_results) & set(followers_results)
+    
+    friends = set(following_results['ids']) & set(followers_results['ids'])
     return friends
   
 # This returns all friend overlap between two sets of friends
@@ -35,6 +36,8 @@ def make_usernames(ids):
   for id in ids:  
     url = USER_ID_SHOW + str(id)
     results = json.load(urllib.urlopen(url))
+#    print id
+#    print results['screen_name']
     usernames.append(results['screen_name'])
   return usernames  
 
