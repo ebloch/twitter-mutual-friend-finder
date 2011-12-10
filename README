@@ -11,4 +11,4 @@ TO BE COMPLETED
 
 
 EXTRA!
-For some extra love bind this bad boy to a short command in your bash-profile and have Twitter Friend Finder at your finger tips i.e. alias tff='/usr/local/bin/pythonw /Directory/that/contains/twitter-mutual-friend-finder/twitter-mutual-friend-finder.py'
+For some extra love bind this bad boy to a command in your bash-profile and have Twitter Friend Finder at your finger tips i.e. alias tff='/usr/local/bin/pythonw /Directory/that/contains/twitter-mutual-friend-finder/twitter-mutual-friend-finder.py'
