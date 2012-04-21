@@ -10,6 +10,6 @@ Be sure to change the hardcoded 'source_TwitterAccount' as this is currently set
 
 Better error handling =)
 
-## EXTRRA EXTRA!
+## EXTRA EXTRA!
 
 For some extra love bind this bad boy to a command in your bash-profile and have Twitter Friend Finder at your finger tips i.e. alias tff='/usr/local/bin/pythonw /Directory/that/contains/twitter-mutual-friend-finder/twitter-mutual-friend-finder.py'
