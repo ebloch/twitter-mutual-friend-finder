@@ -3,6 +3,8 @@
 import urllib
 import simplejson as json
 
+source_TwitterAccount = 'ebloch' #Set's the srouce Twitter account to compare friends with /hardcoded
+
 
 # This returns all the friends of a particular Twitter user as a list
 def findfriends(TwitterAccount):
@@ -41,8 +43,6 @@ def make_usernames(ids):
     usernames.append(results['screen_name'])
   return usernames  
 
-
-source_TwitterAccount = 'ebloch' #Set's the srouce Twitter account to compare friends with /hardcoded
 lookup_TwitterAccount = raw_input('Twitter account: ') #Ask for the lookup account to compare against source account
 print ''
 print 'Using ' + source_TwitterAccount + ' as account source...'
